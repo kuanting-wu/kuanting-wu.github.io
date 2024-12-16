@@ -22,5 +22,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          branch: gh-pages  # or 'main' if deploying from main
+          branch: main  # or 'main' if deploying from main
           folder: public    # Specify the folder containing the built site
