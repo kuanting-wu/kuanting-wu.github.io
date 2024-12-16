@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kuanting Wu</title>
-    <link>http://localhost:62422/</link>
+    <link>https://kuanting-wu.github.io/</link>
     <description>Recent content on Kuanting Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Kuanting Wu</copyright>
-    <lastBuildDate>Sun, 15 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:62422/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kuanting-wu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Figma/Builder.io UI design to code</title>
-      <link>http://localhost:62422/posts/1734294836897-figma/builder.io-ui-design-to-code/</link>
+      <link>https://kuanting-wu.github.io/posts/1734294836897-figma/builder.io-ui-design-to-code/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:62422/posts/1734294836897-figma/builder.io-ui-design-to-code/</guid>
+      <guid>https://kuanting-wu.github.io/posts/1734294836897-figma/builder.io-ui-design-to-code/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:62422/posts/1734294836897-figma/builder.io-ui-design-to-code/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://kuanting-wu.github.io/posts/1734294836897-figma/builder.io-ui-design-to-code/featured.png" />
     </item>
     
     <item>
       <title>Resume</title>
-      <link>http://localhost:62422/resume/</link>
+      <link>https://kuanting-wu.github.io/resume/</link>
       <pubDate>Mon, 13 Jun 2022 21:28:51 +0100</pubDate>
       
-      <guid>http://localhost:62422/resume/</guid>
+      <guid>https://kuanting-wu.github.io/resume/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>About</title>
-      <link>http://localhost:62422/about/</link>
+      <link>https://kuanting-wu.github.io/about/</link>
       <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
       
-      <guid>http://localhost:62422/about/</guid>
+      <guid>https://kuanting-wu.github.io/about/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Projects</title>
-      <link>http://localhost:62422/projects/</link>
+      <link>https://kuanting-wu.github.io/projects/</link>
       <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
       
-      <guid>http://localhost:62422/projects/</guid>
+      <guid>https://kuanting-wu.github.io/projects/</guid>
       <description></description>
       
     </item>
