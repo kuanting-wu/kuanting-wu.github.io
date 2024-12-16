@@ -1,9 +1,14 @@
-name: Deploy Hugo Site to GitHub Pages
+name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # or the branch where the public folder is located
+      - main
+
+permissions:
+  contents: read   # Grants access to repository contents
+  pages: write     # Grants access to GitHub Pages
+  id-token: write  # Grants access for deploying to GitHub Pages (this is the fix)
 
 jobs:
   deploy:
@@ -17,5 +22,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          branch: gh-pages  # Use the branch where you want to deploy (could be 'main' or 'gh-pages')
+          branch: gh-pages  # or 'main' if deploying from main
           folder: public    # Specify the folder containing the built site
