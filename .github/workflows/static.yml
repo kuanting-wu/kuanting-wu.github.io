@@ -11,21 +11,24 @@ permissions:
   id-token: write  # Required for GitHub Pages deployment (this is needed for the token to deploy)
 
 jobs:
-  deploy:
+  build_and_deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Upload the public folder
-        uses: actions/upload-artifact@v3
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          name: github-pages  # Upload the folder with this name
-          path: ./public      # Only upload the 'public' folder
+          hugo-version: 'latest'  # You can specify a Hugo version if needed
+
+      - name: Build the site
+        run: hugo  # This command builds the site and generates the 'public/' directory
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # Use the GitHub token for deployment
-          artifact_name: github-pages        # Deploy the artifact named 'github-pages'
+          token: ${{ secrets.GITHUB_TOKEN }}  # Use the GitHub token for authentication
+          branch: gh-pages    # Deploy to the 'gh-pages' branch (or 'main' if you're deploying to the 'main' branch)
+          folder: public      # Specify the folder containing the built site (the 'public' folder in Hugo)
