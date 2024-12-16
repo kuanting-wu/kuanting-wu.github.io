@@ -3,12 +3,12 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - main  # Trigger the workflow when pushing to the 'main' branch
 
 permissions:
-  contents: read   # Grants access to repository contents
-  pages: write     # Grants access to GitHub Pages
-  id-token: write  # Grants access for deploying to GitHub Pages (this is the fix)
+  contents: read   # Read access to repository contents
+  pages: write     # Write access to GitHub Pages (for deploying the site)
+  id-token: write  # Required for GitHub Pages deployment (this is needed for the token to deploy)
 
 jobs:
   deploy:
@@ -18,9 +18,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Upload the public folder
+        uses: actions/upload-artifact@v3
+        with:
+          name: github-pages  # Upload the folder with this name
+          path: ./public      # Only upload the 'public' folder
+
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
         with:
-          branch: main  # or 'main' if deploying from main
-          folder: public    # Specify the folder containing the built site
+          token: ${{ secrets.GITHUB_TOKEN }}  # Use the GitHub token for deployment
+          artifact_name: github-pages        # Deploy the artifact named 'github-pages'
