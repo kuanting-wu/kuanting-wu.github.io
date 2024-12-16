@@ -45,5 +45,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          branch: gh-pages  # Change this to 'main' if you are deploying to the 'main' branch
+          branch: main  # Change this to 'main' if you are deploying to the 'main' branch
           folder: public  # Specify the 'public' folder to deploy
