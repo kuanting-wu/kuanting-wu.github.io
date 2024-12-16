@@ -50,7 +50,7 @@ invertPagination = false
 showReadingTime = true
 showTableOfContents = false
 showTaxonomies = false
-showAuthorsBadges = false
+showAuthorsBadges = true
 showWordCount = true
 showZenMode = false
 
