@@ -27,22 +27,28 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.110.0'
           extended: true
 
-      # Step 3: Build the site using Hugo (this will create the 'public' folder)
+      # Step 3: Build the Hugo site with verbose logging
       - name: Build the Hugo site
-        run: hugo --minify
+        run: hugo --minify --verbose
 
-      # Step 4: Upload the 'public' folder to GitHub Pages
+      # Step 4: Check if the public folder exists
+      - name: Check if public folder exists
+        run: |
+          ls -l ./public
+
+      # Step 5: Upload the 'public' folder to GitHub Pages
       - name: Upload artifact (public folder)
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './public'  # This is where Hugo generates the static content
+          path: './public'
 
-      # Step 5: Deploy the content to GitHub Pages
+      # Step 6: Deploy the content to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: './public'
