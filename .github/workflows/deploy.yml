@@ -1,4 +1,4 @@
-name: Deploy static content to Pages
+name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
@@ -16,29 +16,33 @@ concurrency:
 
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      # Step 1: Checkout the repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      # If you haven't built the Hugo site yet, you can add a build step here.
-      # - name: Setup Hugo
-      #   uses: peaceiris/actions-hugo@v3
-      #   with:
-      #     hugo-version: 'latest'
-      #     extended: true
-      # - name: Build the site
-      #   run: hugo
+      # Step 2: Setup Hugo to build the site
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
 
-      # Upload the 'public' folder (the generated Hugo site)
-      - name: Upload artifact
+      # Step 3: Build the site using Hugo (this will create the 'public' folder)
+      - name: Build the Hugo site
+        run: hugo --minify
+
+      # Step 4: Upload the 'public' folder to GitHub Pages
+      - name: Upload artifact (public folder)
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './public'  # Upload the 'public' folder where the site is built
+          path: './public'  # This is where Hugo generates the static content
 
+      # Step 5: Deploy the content to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
