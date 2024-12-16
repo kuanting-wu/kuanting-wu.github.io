@@ -2,6 +2,8 @@ baseURL = "https://kuanting-wu.github.io/"
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 publishDir = "public"
+theme = "blowfish"
+
 
 [permalinks]
   posts = "/posts/:year/:month/:day/:slug/"
