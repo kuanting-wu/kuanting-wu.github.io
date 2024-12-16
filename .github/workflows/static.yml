@@ -1,0 +1,48 @@
+name: Deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+
+  workflow_dispatch:  # Allows manual triggering from GitHub Actions
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'  # Optional: specify the Hugo version you want to use
+
+      - name: Build the site
+        run: hugo  # Builds the site and generates the 'public/' directory
+
+      - name: Upload the built site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public  # Upload the 'public/' directory where Hugo generates the static files
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          branch: gh-pages  # You can change this to 'main' if you're deploying to the main branch
+          folder: public  # Specify the 'public' folder to deploy
