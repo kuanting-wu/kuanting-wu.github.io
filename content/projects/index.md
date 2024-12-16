@@ -37,9 +37,6 @@ layoutBackgroundHeaderSpace: false
             <td><img class="customEntitityAlbum" style="background-color:transparent" src="quantifyjiujitsu_logo.png"/></td>
             <td>
               Quantify Jiujitsu
-              {{< badge >}}
-              Active
-              {{< /badge >}}
             </td>
             <td>An interactive platform designed to enhance study notes management and allows users to share their notes with friends, creating a collaborative learning environment.</td>
             <td><a target="_blank" href="https://quantifyjiujitsu.com">site</a></br><a target="_blank" href="https://github.com/kuanting-wu/quantifyjiujitsu">github</a></td>
