@@ -39,7 +39,7 @@ layoutBackgroundHeaderSpace: false
               Quantify Jiujitsu
             </td>
             <td>An interactive platform designed to enhance study notes management and allows users to share their notes with friends, creating a collaborative learning environment.</td>
-            <td><a target="_blank" href="https://quantifyjiujitsu.com">site</a></br><a target="_blank" href="https://github.com/kuanting-wu/quantifyjiujitsu">github</a></td>
+            <td><a target="_blank" href="https://quantifyjiujitsu.com">Site</a></br><a target="_blank" href="https://github.com/kuanting-wu/quantifyjiujitsu">Github</a></td>
         </tr>
     </tbody>
 </table>

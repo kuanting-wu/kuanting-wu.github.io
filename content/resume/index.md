@@ -10,7 +10,7 @@ showHeadingAnchors : false
 showPagination : false
 showReadingTime : false
 showTableOfContents : true
-showTaxonomies : false 
+showTaxonomies : false
 showWordCount : false
 showSummary : false
 sharingLinks : false
@@ -32,6 +32,12 @@ layoutBackgroundHeaderSpace: false
         </tr>
     </thead>
     <tbody>
+        <tr>
+            <td><img class="customEntitityLogo" src="AWS-Certified-Solutions-Architect-Associate_badge.png"/></td>
+            <td><a href="https://www.credly.com/badges/663699f0-b95a-4045-990c-7276e8e62cbc/public_url" target="_blank">AWS Certified Solutions Architect – Associate</a></td>
+            <td>Amazon Web Services Training and Certification</td>
+            <td>December 19, 2024</td>
+        </tr>
         <tr>
             <td><img class="customEntitityLogo" src="AWS-Certified-Cloud-Practitioner_badge.png"/></td>
             <td><a href="https://www.credly.com/badges/1d360a59-7b7f-4520-9a47-1cc0c95d2fd5/public_url" target="_blank">AWS Certified Cloud Practitioner</a></td>
