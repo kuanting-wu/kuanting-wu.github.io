@@ -2,49 +2,89 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Kuanting Wu</title>
-    <link>http://localhost:56830/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Kuanting Wu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Kuanting Wu</copyright>
-    <lastBuildDate>Mon, 27 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:56830/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Simple Email Service</title>
-      <link>http://localhost:56830/tags/simple-email-service/</link>
+      <title>Github Action</title>
+      <link>http://localhost:1313/tags/github-action/</link>
+      <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/github-action/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>IAM</title>
+      <link>http://localhost:1313/tags/iam/</link>
+      <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/iam/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>S3</title>
+      <link>http://localhost:1313/tags/s3/</link>
+      <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/s3/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Terraform</title>
+      <link>http://localhost:1313/tags/terraform/</link>
+      <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/terraform/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>SES</title>
+      <link>http://localhost:1313/tags/ses/</link>
       <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:56830/tags/simple-email-service/</guid>
+      <guid>http://localhost:1313/tags/ses/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Builder.io</title>
-      <link>http://localhost:56830/tags/builder.io/</link>
+      <link>http://localhost:1313/tags/builder.io/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:56830/tags/builder.io/</guid>
+      <guid>http://localhost:1313/tags/builder.io/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Figma</title>
-      <link>http://localhost:56830/tags/figma/</link>
+      <link>http://localhost:1313/tags/figma/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:56830/tags/figma/</guid>
+      <guid>http://localhost:1313/tags/figma/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Vue.js</title>
-      <link>http://localhost:56830/tags/vue.js/</link>
+      <link>http://localhost:1313/tags/vue.js/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:56830/tags/vue.js/</guid>
+      <guid>http://localhost:1313/tags/vue.js/</guid>
       <description></description>
       
     </item>

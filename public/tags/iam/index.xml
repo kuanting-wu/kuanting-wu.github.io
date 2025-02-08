@@ -7,16 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Kuanting Wu</copyright>
-    <lastBuildDate>Mon, 27 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/iam/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/iam/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Migrating to Serverless Structure: Setting Up S3 Bucket for Vue.js Frontend</title>
+      <link>http://localhost:1313/posts/1738978083544-migrating-to-serverless-structure-setting-up-s3-bucket-for-vue.js-frontend/</link>
+      <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/1738978083544-migrating-to-serverless-structure-setting-up-s3-bucket-for-vue.js-frontend/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1738978083544-migrating-to-serverless-structure-setting-up-s3-bucket-for-vue.js-frontend/featured.png" />
+    </item>
     
     <item>
       <title>Setting Up Email Verification with Amazon SES, IAM Permissions, and a Backend</title>
-      <link>http://localhost:1313/posts/2025/01/27/setting-up-email-verification-with-amazon-ses-iam-permissions-and-a-backend/</link>
+      <link>http://localhost:1313/posts/1737991070463-setting-up-email-verification-with-amazon-ses-iam-permissions-and-a-backend/</link>
       <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/2025/01/27/setting-up-email-verification-with-amazon-ses-iam-permissions-and-a-backend/</guid>
+      <guid>http://localhost:1313/posts/1737991070463-setting-up-email-verification-with-amazon-ses-iam-permissions-and-a-backend/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025/01/27/setting-up-email-verification-with-amazon-ses-iam-permissions-and-a-backend/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1737991070463-setting-up-email-verification-with-amazon-ses-iam-permissions-and-a-backend/featured.png" />
     </item>
     
   </channel>

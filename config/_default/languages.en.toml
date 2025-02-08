@@ -9,8 +9,3 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-author = { name = "Kuanting Wu", image = "avatar.png", links = [ { email = "kuanting.wu@outlook.com" }, { github = "https://github.com/kuanting-wu" }, { linkedin = "https://www.linkedin.com/in/kuanting-wu-790283309/" }, { download = "https://docs.google.com/document/d/1yJVDZuqJXpG9iCNH8GkwZQMHXx5V-mb8FE7Dx8dTfFo/edit?tab=t.0" } ], headline = "Aspiring Cloud Engineer with a Passion for Innovation", bio = "Kuanting Wu is a junior cloud engineer and recent graduate from National Cheng Kung University, specializing in cloud computing and infrastructure." }
-
-
-
-

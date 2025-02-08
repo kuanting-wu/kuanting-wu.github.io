@@ -7,16 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Kuanting Wu</copyright>
-    <lastBuildDate>Mon, 27 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/example/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/example/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Email Verification Using Amazon SES</title>
-      <link>http://localhost:1313/posts/2025/01/27/email-verification-using-amazon-ses/</link>
-      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <title>Migrating to Serverless Structure: Setting Up S3 Bucket for Vue.js Frontend</title>
+      <link>http://localhost:1313/posts/1738978083544-migrating-to-serverless-structure-setting-up-s3-bucket-for-vue.js-frontend/</link>
+      <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/2025/01/27/email-verification-using-amazon-ses/</guid>
+      <guid>http://localhost:1313/posts/1738978083544-migrating-to-serverless-structure-setting-up-s3-bucket-for-vue.js-frontend/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025/01/27/email-verification-using-amazon-ses/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1738978083544-migrating-to-serverless-structure-setting-up-s3-bucket-for-vue.js-frontend/featured.png" />
     </item>
     
   </channel>

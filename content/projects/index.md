@@ -3,6 +3,7 @@ title: "Projects"
 date: 2022-06-13T20:55:37+01:00
 draft: false
 
+showAuthor: false
 showDate : false
 showDateOnlyInArticle : false
 showDateUpdated : false
@@ -38,8 +39,12 @@ layoutBackgroundHeaderSpace: false
             <td>
               Quantify Jiujitsu
             </td>
-            <td>An interactive platform designed to enhance study notes management and allows users to share their notes with friends, creating a collaborative learning environment.</td>
-            <td><a target="_blank" href="https://quantifyjiujitsu.com">Site</a></br><a target="_blank" href="https://github.com/kuanting-wu/quantifyjiujitsu">Github</a></td>
+            <td>An interactive platform designed to enhance study notes management and allows users to share their notes with friends.</td>
+            <td>
+            <a target="_blank" href="https://quantifyjiujitsu.com">Site</a>
+            </br><a target="_blank" href="https://github.com/kuanting-wu/quantifyjiujitsu">Web Code</a>
+            </br><a target="_blank" href="https://github.com/kuanting-wu/qj_infra">Infra Code</a>
+            </td>   
         </tr>
     </tbody>
 </table>
